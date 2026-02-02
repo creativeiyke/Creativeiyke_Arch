@@ -461,8 +461,8 @@ RULES:
    - **IF Cloud/App/SaaS/High-Scale:** Recommend Google Cloud Platform (GCP) & Firebase (Cloud Run, Firestore, Vertex AI). Focus on security and infinite scale.
    - **IF Branding/Logo/Creative:** Focus on "Neuro-Aesthetics", brand psychology, and scalable design systems. Do NOT mention cloud infrastructure.
    - **IF Web/Marketing/CMS:** Advocate for bespoke performance engineering (Next.js, Headless) over generic templates. Focus on speed (Core Web Vitals) and conversion.
-3. **Length:** Concise (60-80 words).
-4. **MANDATORY:** Conclude by stating the full strategic breakdown is available in the "Viability Roadmap" and prompt the user to unlock it.`,
+3. **Length:** Concise (80-100 words).
+4. **MANDATORY CTA:** Provide a helpful, specific response first. Then conclude by stating the full strategic breakdown is available in the "Viability Roadmap" and prompt the user to unlock it. Do not output "Verification successful" at this stage.`,
           temperature: 0.7,
         }
       });
