@@ -467,7 +467,8 @@ RULES:
         }
       });
       
-      const cleanText = result.text ? result.text.trim() : "Unable to decrypt. Try again.";
+      const response = await result.response;
+const cleanText = response.text().trim() || "Unable to decrypt. Try again.";
       setResponse(cleanText);
       setView('analysis');
 
